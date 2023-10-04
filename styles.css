@@ -1,0 +1,70 @@
+body{
+    background-color: rgba(224, 207, 159, 0.872);
+}
+.entire{
+    background-color: white;
+    margin:30px 70px;
+    padding: 10px 70px;  
+    border-radius: 15px;
+    box-shadow: 5px 5px 25px 2px black;
+}
+.navwhole{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:30px;
+    box-shadow: 0 5px 5px -5px gray;
+}
+.logo{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 25px;
+    margin-left:15px;
+}
+.navlink,.navsearch{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.homelinks>li, .sclinks>li{
+    display:inline;
+    margin:0px 15px;
+    font-family: "Inter", Georgia, 'Times New Roman', Times, serif;
+    font-size:14px;
+}
+.card{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:30px;
+}
+.desc{
+    font-family: "Playfair Display", Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 40px;
+    margin-bottom: 5px;
+}
+.subdesc{
+    font-family: "Inter", Georgia, 'Times New Roman', Times, serif;
+}
+button{
+    background-color: black; 
+    color: white;
+    font-weight: bold;
+    font-size:12px;
+    margin-top: 20px;
+    padding: 15px 50px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+.foot{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 30px 0px 10px 0px;
+    text-align:center;
+}
+a{
+    color:black;
+    text-decoration: none;
+}
